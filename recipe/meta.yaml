@@ -11,11 +11,12 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 1001
+  number: 1002
 
 requirements:
   build:
     - {{ compiler("c") }}
+    - make
   host:
 
 test:
@@ -37,3 +38,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - xhochy
