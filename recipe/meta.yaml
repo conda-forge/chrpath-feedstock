@@ -11,11 +11,12 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 1001
+  number: 1002
 
 requirements:
   build:
     - {{ compiler("c") }}
+    - make
   host:
 
 test:
@@ -25,7 +26,7 @@ test:
 
 about:
   home: http://packages.qa.debian.org/c/chrpath.html
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_file: COPYING
   summary: 'Tool to edit the rpath in ELF binaries.'
   description: |
@@ -37,3 +38,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - xhochy
