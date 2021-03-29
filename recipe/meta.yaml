@@ -26,7 +26,7 @@ test:
 
 about:
   home: http://packages.qa.debian.org/c/chrpath.html
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_file: COPYING
   summary: 'Tool to edit the rpath in ELF binaries.'
   description: |

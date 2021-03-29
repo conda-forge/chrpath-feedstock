@@ -3,7 +3,7 @@ About chrpath
 
 Home: http://packages.qa.debian.org/c/chrpath.html
 
-Package license: GPL-2.0
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chrpath-feedstock/blob/master/LICENSE.txt)
 
