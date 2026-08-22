@@ -2,7 +2,7 @@
 
 package:
   name: chrpath
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   fn: chrpath-{{ version }}.tar.gz
@@ -11,11 +11,13 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 1002
+  number: 1003
 
 requirements:
   build:
     - {{ compiler("c") }}
+    - {{ stdlib("c") }}
+    - gnuconfig
     - make
   host:
 
